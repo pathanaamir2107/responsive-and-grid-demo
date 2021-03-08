@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* global */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* header */
+
+header {
+    background: brown;
+    color: white;
+    overflow: auto;
+}
+
+header .toggler {
+    display: none;
+}
+
+header h3 {
+    float: left;
+    padding: 16px 0;
+    font-size: 20px;
+}
+
+header nav {
+    float: right;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+
+/* banner */
+
+#banner {
+    background-image: url("/images/1_HLGtY6O2vUHqIyEbWdmBgA.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/* Section */
+
+#coding h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 20px 0;
+    margin-left: 15px;
+}
